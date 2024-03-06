@@ -10,11 +10,13 @@ class ListExamples {
   // the same order they appeared in the input list;
   static List<String> filter(List<String> list, StringChecker sc) {
     List<String> result = new ArrayList<>();
+    /*
     for(String s: list) {
       if(sc.checkString(s)) {
         result.add(0, s);
       }
     }
+    */
     return result;
   }
 
@@ -23,6 +25,7 @@ class ListExamples {
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
+    /*
     int index1 = 0, index2 = 0;
     while(index1 < list1.size() && index2 < list2.size()) {
       if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
@@ -43,6 +46,7 @@ class ListExamples {
       // change index1 below to index2 to fix test
       index2 += 1;
     }
+    */
     return result;
   }
 
